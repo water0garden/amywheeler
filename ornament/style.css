@@ -1,0 +1,118 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+
+
+body {
+  margin: 20px;
+  background: ForestGreen;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  line-height: 1.5;
+  width: auto;
+  max-width: 4000px;
+  max-height: auto;
+  position: absolute;
+  align-content: center;
+}
+
+header {
+color: black;
+font-size: 20px;
+font-family: 'Times New Roman';
+  text-align: center;
+
+padding-bottom: 10px;
+max-width: 100%;
+}
+
+a:hover{
+  text-decoration: underline 1px dotted grey;
+  transition: 5s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.text-frag {
+  max-width: 100%;
+  display: inline-block;
+  margin-right: 3ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+color: black;
+text-decoration: none;
+display: inline-block;
+}
+
+.button {
+  max-width: 100%;
+  display: block;
+  position: static;
+  text-align: center;
+  border-top: dotted 1px black;
+  /*border: 1px dotted black; */
+  /*background: mediumslateblue; */
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 240px;
+	height: 100px;
+  font-stretch: normal;
+  line-height: 20px;
+}
+
+
+
+.back {
+    position: static;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 3ch;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    /*background: cornflowerblue; */
+    border-top: dotted 1px black;
+  	border-radius: 50px;
+    padding-top: 30px;
+  	width: 110px;
+  	height: 100px;
+    font-stretch: normal;
+    line-height: 25px;
+}
+
+.back:hover {
+    box-shadow: 2px 2px 2px beige	, 0 0 25px beige, 0 0 5px beige;
+  }
+
+
+  /*---------------- Media styles----------------*/
+  @media screen and (max-width: 800px) {
+
+          img {
+            padding: 10px;
+            max-width: 60%;
+            margin: 0 auto;
+          }
+
+        .back {
+          position: absolute;
+          margin: 0 auto;
+
+        }
+
+        }
+
+              }
