@@ -1,203 +1,125 @@
-/* Format for applying styling rules */
-[selector] {
-  [property]: [value];
-}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Amy Wheeler</title>
+	<meta name="description" content="amywheeler@gmail.com">
+	<meta name="keywords" content="amy wheeler, paintings, auckland, new zealand">
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet" title="stylesheet" href="style.css">
+</head>
 
-/*------ Our Styles ------ */
-body {
-  background: WhiteSmoke	;
-  color: black;
-  font-size: 20px;
-  font-family: 'Times New Roman';
-  line-height: 1.5;
-  max-width: 4000px;
-  height: auto;
-  vertical-align: top;
-}
-
-.content {
-  margin-top: 20px;
-  max-width: 260px;
-  vertical-align: top;
-  margin-left: 6px;
-  margin-bottom: 20px;
-}
+<body>
 
 
-.text-frag {
-    display: block;
-    margin-right: 3ch;
-    margin-left: 3ch;
-    display: block;
-    float: left;
-    text-align: center;
-    border-top: dotted 1px black;
-  	border-radius: 50px;
-    padding-top: 30px;
-  	width: 110px;
-  	height: 100px;
-    font-stretch: normal;
-    line-height: 25px;
-}
 
-* {
-  box-sizing: border-box;
-}
+			<span class="title">
+				He said I had no scent
+				</span>
 
+<div class="content">
 
-/* ------ dropdown ------ */
+	<div class="dropdown">
+	 <a href="aw_untitled_1.jpeg" target="_blank">
+				<img src="aw_untitled_1.jpeg">
+				<div class="dropdown-content">
+				<p><i>Untitled</i>,<br> spray paint and diamanté on board <br> (450mm x 450mm)</p>
+		</a>
+	 </div>
+		</div>
 
-p {
-  color: black;
-  font-size: 12px;
-  font-family: 'Times New Roman';
-  line-height: 1.5;
-  padding-top: 10px;
+<div class="dropdown">
+	 <a href="aw_untitled_2.jpeg" target="_blank">
+				<img src="aw_untitled_2.jpeg"></a>
+		<div class="dropdown-content">
+			 <p><i>bflet</i>,<br> oil and gel on board <br> (450mm x 450mm)</p>
+	 </a>
+ </div>
+  </div>
 
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
+				 <div class="dropdown">
+						 <a href="aw_untitled_3.jpeg" target="_blank">
+									<img src="aw_untitled_3.0.jpeg"></a>
+								 <div class="dropdown-content">
+										<p><i>Untitled</i>,<br> spray paint and diamanté on board <br> (450mm x 450mm)</p>
+								</a>
+							 </div>
+								</div>
 
-}
+		 <div class="dropdown">
+		 <a href="aw_untitled_4.jpeg" target="_blank">
+					<img src="aw_untitled_4.jpeg"></a>
+					 <div class="dropdown-content">
+					 <p><i>Azapams</i>,<br> oil on board <br> (500mm x 600mm)</p>
+			 </a>
+			</div>
+			 </div>
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 180px;
-  max-width: 4000px;
-  padding: 16px 18px;
-  z-index: 1;
-  border: 1px dotted black;
-  margin: 2px;
-  margin-bottom: 10px;
-
-
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  position: relative;
-
-}
-
-/* ------ image changes ------ */
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-img {
-  align: left;
-  max-width: 100%;
-  margin-left: 6px;
-  margin: 4px;
-  border: 1px dotted black ;
-}
+			 <div class="dropdown">
+			<a href="aw_untitled_5.jpeg" target="_blank">
+ 					<img src="aw_untitled_5.jpeg"></a>
+ 			 <div class="dropdown-content">
+				 <p><i>Untitled</i>,<br> tbd <br> (450mm x 450mm)</p>
+		 </a>
+		</div>
+		 </div>
 
 
- img:hover {
-     max-width: 200%;
-     padding: 6px;
 
 
-}
+		<div class="dropdown">
+		<a href="aw_untitled_6.jpeg" target="_blank">
+				<img src="aw_untitled_6.jpeg"> </a>
+			 <div class="dropdown-content">
+				 <p><i>Untitled</i>,<br> oil on board <br> (450mm x 450mm)</p>
+		 </a>
+		</div>
+		 </div>
 
-img {
-  -webkit-transition: all 4s ease-out;
-  -moz-transition: all 4s ease-out;
-  -o-transition: all 4s ease-out;
-  -ms-transition: all 4s ease-out;
-  transition: all 4s ease-out;
-}
-
-
-/* Bottom page content*/
-
-.back {
-    margin-right: 3ch;
-    margin-left: 3ch;
-    margin-bottom: 20px;
-    text-align: center;
-    border-top: dotted 1px black;
-  	border-radius: 50px;
-    padding-top: 30px;
-  	width: 110px;
-  	height: 100px;
-    font-stretch: normal;
-    line-height: 25px;
-}
-
-.back:hover {
-    box-shadow: 2px 2px 2px cornflowerblue	, 0 0 25px cornflowerblue, 0 0 5px cornflowerblue;
-  }
+<div class="dropdown">
+		<a href="aw_untitled_7.jpeg" target="_blank">
+				<img src="aw_untitled_7.jpeg">
+			</a> <div class="dropdown-content">
+				 <p><i>Untitled</i>,<br> tbd <br> (450mm x 450mm)</p>
+		 </a>
+		</div>
+		 </div>
 
 
-.button3 {
-  display: block;
-  float: left;
-  text-align: center;
-  border-top: dotted 1px black;
-	border-radius: 50px;
-  padding-top: 30px;
-	width: 240px;
-	height: 100px;
-  font-stretch: normal;
-  line-height: 20px;
-}
+<!--
+			<a href="test/5.jpg" target="_blank">
+					 <img src="test/5.jpg">
+			 </a>
+			 <a href="test/6.jpg" target="_blank">
+						<img src="test/6.jpg">
+				</a>
+				<a href="test/7.jpg" target="_blank">
+						 <img src="test/7.jpg">
+				 </a>
+				 <a href="test/8.jpg" target="_blank">
+							<img src="test/8.jpg">
+					</a>
+					<a href="test/9.jpg" target="_blank">
+							 <img src="test/9.jpg">
+					 </a>
+					 <a href="test/10.jpg" target="_blank">
+								<img src="test/10.jpg">
+						</a>
+						<a href="test/11.jpg" target="_blank">
+								 <img src="test/11.jpg">
+						 </a>
+						 <a href="test/12.jpg" target="_blank">
+									<img src="test/12.jpg">
+							</a>-->
 
-.title {
-  display: block;
-  float: left;
-  text-align: center;
-  border-top: dotted 1px black;
-	border-radius: 50px;
-  padding-top: 30px;
-	width: 250px;
-	height: 100px;
-  margin-left: 4px;
-  font-stretch: normal;
-  line-height: 20px;
-}
+</div>
 
-
-footer {
-  border-top: 1px;
-  position: static;
-  bottom: 10px;
-  width: 100%;
-}
-
-a:link, a:visited {
-color: black;
-text-decoration: none;
-display: inline-block;
-}
-
-a:active { color: black; }
-a:hover { color: black;}
+<a href="../index.html"> <div class="back">back</div> </a>
 
 
-/*---------------- Media styles----------------*/
-  @media screen and (max-width: 800px) {
-
-          img{
-              max-width: 70%;
-              height: auto;
-              margin: 0 auto;
-          }
-
-          img:hover {
-            max-width: 100%;
-            height: auto;
-            margin: 0 auto;
-          }
-
-          .content {
-            max-width: 60%;
-          }
-
-      }
+		<footer class="button3">
+			Ⓒ Amy Wheeler 2020
+		</footer>
+</body>
+</html>
