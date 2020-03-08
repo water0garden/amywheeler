@@ -17,7 +17,7 @@ body {
 
 .content {
   margin-top: 20px;
-  max-width: 200px;
+  max-width: 260px;
   vertical-align: top;
   margin-left: 6px;
   margin-bottom: 20px;
@@ -45,6 +45,43 @@ body {
 }
 
 
+/* ------ dropdown ------ */
+
+p {
+  color: black;
+  font-size: 12px;
+  font-family: 'Times New Roman';
+  line-height: 1.5;
+  padding-top: 10px;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  max-width: 4000px;
+  padding: 16px 18px;
+  z-index: 1;
+  border: 1px dotted black;
+  margin: 2px;
+  margin-bottom: 10px;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+
+}
+
 /* ------ image changes ------ */
 
 *,
@@ -59,12 +96,13 @@ img {
   margin-left: 6px;
   margin: 4px;
   border: 1px dotted black ;
-  padding: 6px;
 }
 
 
  img:hover {
      max-width: 200%;
+     padding: 6px;
+
 
 }
 
@@ -107,6 +145,20 @@ img {
   padding-top: 30px;
 	width: 240px;
 	height: 100px;
+  font-stretch: normal;
+  line-height: 20px;
+}
+
+.title {
+  display: block;
+  float: left;
+  text-align: center;
+  border-top: dotted 1px black;
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 250px;
+	height: 100px;
+  margin-left: 4px;
   font-stretch: normal;
   line-height: 20px;
 }
