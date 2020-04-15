@@ -121,8 +121,24 @@ a:active { color: white;}
 a:hover { color: black;}
 
 footer {
-  border-top: 1px;
+
   position: fixed;
   bottom: 10px;
-  width: 100%;
+  max-width: 100%;
 }
+
+/*---------------- Media styles----------------*/
+  @media screen and (max-width: 800px) {
+
+          footer{
+              max-width: 70%;
+              margin: 0 auto;
+          }
+
+          .button, .button1, .button2, .button3 {
+            max-width: 100%;
+            margin: 0 auto;
+          }
+
+
+      }
