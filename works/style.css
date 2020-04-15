@@ -127,6 +127,7 @@ img {
 /* Bottom page content*/
 
 .back {
+	float: left;
     margin-right: 3ch;
     margin-left: 3ch;
     margin-bottom: 20px;
@@ -200,7 +201,7 @@ a:hover { color: black;}
   @media screen and (max-width: 800px) {
 
           img{
-              max-width: 80%;
+              max-width: 90%;
               height: auto;
                 margin-top: 10px;
               margin: 0 auto;
@@ -220,7 +221,7 @@ a:hover { color: black;}
 
                     footer{
                         max-width: 70%;
-                        
+                  
                     }
 
                     .button, .button1, .button2, .button3, .back {
