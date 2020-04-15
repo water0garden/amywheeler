@@ -166,13 +166,14 @@ img {
   border-top: dotted 1px black;
 	border-radius: 50px;
   margin-top: 20px;
-  padding-top: 30px;
+  padding-top: 10px;
 	width: 250px;
 	height: 100px;
   margin-left: 4px;
   font-stretch: normal;
   line-height: 20px;
 	padding-bottom: 40px;
+	margin-bottom: 20px;
 
 }
 
@@ -219,7 +220,7 @@ a:hover { color: black;}
 
                     footer{
                         max-width: 70%;
-                        margin: 0 auto;
+                        
                     }
 
                     .button, .button1, .button2, .button3, .back {
