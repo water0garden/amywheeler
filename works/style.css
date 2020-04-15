@@ -2,7 +2,6 @@
 [selector] {
   [property]: [value];
 }
-
 /*------ Our Styles ------ */
 body {
   background: WhiteSmoke	;
@@ -21,6 +20,11 @@ body {
   vertical-align: top;
   margin-left: 6px;
   margin-bottom: 20px;
+  display: block;
+}
+
+.content:after {
+  margin: 20px;
 }
 
 
@@ -100,11 +104,13 @@ img {
 
 
  img:hover {
+
      max-width: 200%;
      padding: 6px;
 
-
 }
+
+
 
 img {
   -webkit-transition: all 4s ease-out;
@@ -151,6 +157,7 @@ img {
 
 .title {
   display: block;
+  position: relative;
   float: left;
   text-align: center;
   border-top: dotted 1px black;
@@ -181,6 +188,7 @@ a:active { color: black; }
 a:hover { color: black;}
 
 
+
 /*---------------- Media styles----------------*/
   @media screen and (max-width: 800px) {
 
@@ -200,4 +208,16 @@ a:hover { color: black;}
             max-width: 60%;
           }
 
-      }
+
+                    footer{
+                        max-width: 70%;
+                        margin: 0 auto;
+                    }
+
+                    .button, .button1, .button2, .button3 {
+                      max-width: 100%;
+                      margin: 0 auto;
+                    }
+
+
+                }
