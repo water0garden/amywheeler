@@ -65,3 +65,25 @@ a:hover { color: white;}
   font-stretch: normal;
   line-height: 20px;
 }
+
+.back {
+    position: static;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 3ch;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    /*background: cornflowerblue; */
+    border-top: dotted 1px black;
+  	border-radius: 50px;
+    padding-top: 30px;
+  	width: 110px;
+  	height: 100px;
+    font-stretch: normal;
+    line-height: 25px;
+}
+
+.back:hover {
+    box-shadow: 2px 2px 2px beige	, 0 0 25px beige, 0 0 5px beige;
+  }
